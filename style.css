@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #08f;
+}
+.heading{
+    background-color: #012;
+    color: #357;
+    font-size: 22px;
+    width: 100vw;
+    height:1em;
+    padding: 1em;
+}
+.instructions{
+    box-sizing: inherit;
+    background-color: #0ff;
+    color:#000;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 2em 1em;
+    width: 100vw;
+    height: 20vh;
+}
+.instructions ul{
+    box-sizing: inherit;
+    border-radius:25px;
+}
+.link{
+    box-sizing: inherit;
+    color:#000;
+    font-size: 16px;
+    padding: 1em;
+}
+.link a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f0f;
+}
+.hint-container{
+    position: fixed;
+    bottom: 0;
+}
+.hint-container .heading{
+    width: 52vw;
+}
+.hint{
+    
+    background-color: #0ff;
+    color:#000;
+    font-size: 16px;
+    width: 55vw;
+    height: 3em;
+}
